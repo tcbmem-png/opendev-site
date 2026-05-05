@@ -3,11 +3,11 @@
   "rewrites": [
     {
       "source": "/kpar",
-      "destination": "https://github.com/tcbmem-png/KPAR.git"
+      "destination": "https://kpar.vercel.app"
     },
     {
       "source": "/kpar/:path*",
-      "destination": "https://github.com/tcbmem-png/KPAR.git*"
+      "destination": "https://kpar.vercel.app/:path*"
     }
   ]
 }
