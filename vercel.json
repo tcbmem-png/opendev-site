@@ -1,0 +1,13 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    {
+      "source": "/kpar",
+      "destination": "https://github.com/tcbmem-png/KPAR.git"
+    },
+    {
+      "source": "/kpar/:path*",
+      "destination": "https://github.com/tcbmem-png/KPAR.git*"
+    }
+  ]
+}
